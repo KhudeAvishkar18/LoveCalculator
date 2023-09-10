@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love Calculator</title>
+</head>
+
+<body>
+    <h1>Love Calculator</h1>
+    Plz Refresh me to calculate again
+</body>
+<script>
+    let yourName = prompt("Enter your Name : ");
+    let partName = prompt("Enter your Life Partner's name : ");
+    let num = Math.random();
+    let loveScore = Math.round(num * 100);
+
+
+    if (loveScore > 40) {
+        if (loveScore >= 40 && loveScore <= 80) {
+            alert("Your love Score  is " + loveScore + "%, You need to understand each other for your long term Relationship.");
+        }
+        else {
+            alert("Your love Score  is " + loveScore + "%, You are made for each other.");
+        }
+    }
+
+    else {
+        alert("Your love Score  is " + loveScore + "%.");
+    }
+
+</script>
+
+</html>
